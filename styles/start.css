@@ -1,0 +1,55 @@
+.header {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.left-side {
+  display: flex;
+  align-items: center;
+
+}
+
+.logo-img {
+  height: 200px;
+}
+
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.about-title { 
+  font-family: Poppins, Arial;
+  color: black; 
+  font-size: 100px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+
+.desciption {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.about-desciption {
+  margin-top: 40px;
+  font-family: Poppins, Arial;
+  color:rgb(73, 73, 73); 
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 50px;
+} 
+
+
+.quiz {
+  align-items: center;
+}

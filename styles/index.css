@@ -1,0 +1,99 @@
+.header {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.left-side {
+  display: flex;
+  align-items: center;
+
+}
+
+.logo-img {
+  height: 200px;
+}
+
+
+.right-side {
+  display: flex;
+  align-items: center;
+}
+
+.about-button {
+  font-family: Poppins, Arial;
+  background-color:rgb(255, 255, 255);
+  color:black; 
+  border-width: 2px;
+  border-color: black;
+  border-style: solid; 
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 15px;
+  font-weight:bold;
+  font-size: 35px;
+  cursor:pointer;
+  transition: box-shadow 0.15s;
+}
+
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.website-title { 
+  font-family: Poppins, Arial;
+  color: black; 
+  font-size: 100px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.desciption {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.desciption-text {
+  margin-top: 30px;
+  font-family: Poppins, Arial;
+  color:rgb(73, 73, 73); 
+  font-size: 25px;
+  text-align: center;
+} 
+
+
+.start-here {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.start-button {
+  font-family: Poppins, Arial;
+  background-color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255); 
+  border: none;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 35px;
+  font-weight :bold;
+  font-size: 35px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+
+}
